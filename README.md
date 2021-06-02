@@ -10,7 +10,7 @@ truffle init
 ```
 ### Compile project
 ```
-tru ffle compile
+truffle compile
 ```
 ### Deploy contracts
 ```
