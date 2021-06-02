@@ -1,4 +1,4 @@
-# Smart Contract
+# BapCoin
 ## Setup
 ### Installing truffle
 ```
@@ -21,14 +21,14 @@ truffle migrate
 ```
 truffle console
 ```
-### Buy BapCoins with an account
+### Transact BapCoins
 ```
-let instance = await BapCoinIco.deployed()
+let instance = await BapCoin.deployed()
 let accounts = await web3.eth.getAccounts()
-instance.buy_bapcoins(accounts[1], 10)
+instance.add_transaction(accounts[1], accounts[2], 10)
 ```
 
-### Get Bapcoin balance for an account
+### Get Bapcoin transactions
 ```
-instance.equity_in_bapcoins(accounts[1])
+instance.get_transactions()
 ```
