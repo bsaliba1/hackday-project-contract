@@ -20,4 +20,16 @@ contract BapCoin {
   function get_transactions() external view returns (transaction[] memory) {
     return transactions;
   }
+
+  //Test Code
+  int public count = 0;
+  function incr() public{
+    count++;
+  }
+  function decr() public{
+    count--;
+  }
+  function display() public view returns (int){
+    return count;
+  }
 }
