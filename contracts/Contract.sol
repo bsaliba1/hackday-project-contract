@@ -4,7 +4,7 @@
 // Define Version of the Solidity compiler
 pragma solidity ^0.8.4;
 
-contract BapCoin {
+contract Contract {
   struct transaction {
     address sender;
     address receiver;

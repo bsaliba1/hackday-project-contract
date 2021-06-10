@@ -1,6 +1,6 @@
-var BapCoin = artifacts.require("BapCoin");
+var Contract = artifacts.require("Contract");
 
 module.exports = function(deployer) {
-    deployer.deploy(BapCoin, "Deploying contract");
+    deployer.deploy(Contract, "Deploying contract");
     // Additional contracts can be deployed here
 };
