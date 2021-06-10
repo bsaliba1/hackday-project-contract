@@ -1,4 +1,4 @@
-# BapCoin
+# Hackday Project
 ## Getting Started Guide
 https://docs.soliditylang.org/en/v0.8.4/index.html?highlight=getting%20started#getting-started
 ## Setup
