@@ -18,6 +18,12 @@ truffle compile
 ```
 truffle migrate
 ```
+### Get ABI
+```
+const fs = require('fs');
+const contract = JSON.parse(fs.readFileSync('./build/contracts/ExampleSmartContract.json', 'utf8'));
+console.log(JSON.stringify(contract.abi));
+```
 ## Interacting with contract
 ### Startup truffle console
 ```

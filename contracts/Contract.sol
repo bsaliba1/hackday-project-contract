@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AML
-// BapCoin
+// Basic Contract
 
 // Define Version of the Solidity compiler
 pragma solidity ^0.8.4;
